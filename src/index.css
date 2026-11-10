@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to right, #1085ec, #00f2fe);
+}
+
+.dashboard-card {
+  @apply flex items-center justify-center text-white text-lg font-semibold py-10 rounded-lg shadow-lg transition-transform transform hover:scale-105;
+}
